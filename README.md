@@ -2,11 +2,15 @@
 
 ## Todo First
 
-- Install brave-browser
+- [Download brave-browser](https://brave.com/ja/download/)
 
-- Install Metamask
+- [Install brave-browser](https://brave.com/linux/#release-channel-installation)
 
-- install IPFS
+- [Install Metamask](https://prismyc.com/metamask-brave-install/)
+
+- [Install IPFS](https://spotlight.soy/detail?article_id=7y3gwvfhk)
+
+- Install truffle, openzeppelin, and ganache
 
 ```
 $ sudo npm install -g truffle@5.5.2
@@ -21,10 +25,9 @@ $ sudo npm install -g ganache-cli@6.12.2
 
 
 
-
 ## Upload contents to IPFS
 
-- Prepare images and metadata
+- Prepare images and metadata like [this](https://github.com/fujihalab/erc721_token/tree/main/chibanny_data)
 
 
 
@@ -46,6 +49,7 @@ $ npm install
 $ truffle compile
 ```
 
+
 - Deploy contracts
 
 ```
@@ -53,7 +57,8 @@ $ truffle migrate --network ropsten
 
 ```
 
-- The output is as follows:
+
+- The output is like this:
 
 ```
 Compiling your contracts...
@@ -174,7 +179,6 @@ Summary
 
 
 
-
 ## Mint ERC721-type NFT
 
 ```
@@ -252,9 +256,9 @@ truffle(ropsten)> cit.getChibanny(0)
 
 ## Check Metamask
 
-- Setup contract address and token ID
+- [Add a contract address and token ID to Metamask](https://hexanft.com/metamaskerc721/)
 
-- Try transfer tokens using Metamask
+- [Try transfer tokens using Metamask](https://metamask.zendesk.com/hc/ja/articles/360058961911-NFT%E3%82%92%E9%80%81%E4%BF%A1-%E5%8F%97%E4%BF%A1-%E5%A3%B2%E5%8D%B4%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%81%AF-)
 
 
 
